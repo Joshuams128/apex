@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+h1 {
+    color: rgb(244, 6, 6);
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    line-height: 40px;
+}
+
+.logo-image {
+    width: 50px;
+    height: auto;
+}
+
+nav {
+    float: right;
+    line-height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.featured {
+    margin-bottom: 20px;
+}
+
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.section:nth-child(odd) {
+    clear: both;
+}
+
+.section h1 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-links ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.container2 {
+    width: calc(31.4% - 20px);
+    margin: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float: left;
+}
+
+@media screen and (max-width: 768px) {
+    .container2 {
+        width: calc(50% - 20px);
+        margin: 10px;
+    }
+
+    .section {
+        width: 100%;
+    }
+}
+
+.event-img, .event-img2, .event-img3 {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.maintext, .maintext2, .maintext3 {
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+}
+
+p{
+    fill: white;
+}
+
+.legends {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.bt{
+    width: 100%;
+    margin-bottom: 20px;
+}

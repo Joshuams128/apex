@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+    line-height: 40px;
+}
+
+.logo-image {
+    width: 50px;
+    height: auto;
+}
+
+nav {
+    float: right;
+    line-height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.meet-container {
+    text-align: center;
+}
+
+.meet {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.legends-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.alllegneds {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+.fill {
+    text-align: center;
+    color: rgb(240, 16, 16);
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .logo {
+        float: none;
+        text-align: center;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-left: 0;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+    }
+
+    .logo-image {
+        width: 40px;
+    }
+
+    nav ul li {
+        margin-left: 10px;
+    }
+
+    .social-icons {
+        margin-top: 5px;
+    }
+}
